@@ -1,4 +1,6 @@
 ----------------------12 factor app------------------------------
+
+
 Twelve-Factor App is a set of 12 principles, or best practices, for building web applications, which are now commonly known as SaaS (Software as a Service). These principles help create applications that reduce development time and cost, especially when new people join the team. It is highly portable and suitable for development on various cloud platforms, allowing continuous development and scaling.
 
 1.codebase
