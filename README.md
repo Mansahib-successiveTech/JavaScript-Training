@@ -56,18 +56,23 @@ The word atomic comes from atoms, which are the smallest building blocks in chem
 Here’s how Atomic Design works:
 
 -Atoms
+
 These are the smallest parts of your design, like buttons, labels, or icons. They are simple and reusable everywhere in your app.
 
 -Molecules
+
 Molecules are groups of atoms put together to make a slightly more complex component. For example, a search form made of a text input (atom) and a button (atom).
 
 -Organisms
+
 Organisms are bigger groups made from molecules and atoms. For example, a header with a logo, navigation menu, and search form.
 
 -Templates
+
 Templates give a basic layout or skeleton for a page. They arrange organisms and molecules in a structure but don’t have final content yet.
 
 -Pages
+
 Pages are the final, complete designs. They fill the templates with real content and show how the finished app or website looks.
 
 Benefits of Atomic Design:
@@ -86,6 +91,7 @@ Atomic Design makes creating and maintaining web apps easier, faster, and more o
 
 
 git
+
 git is a distributed version control system present on local machine to monitor and keep logs or track changes,it is a command line tool
 main features:-
 -version control
@@ -94,6 +100,7 @@ main features:-
 -present locally at a system
 
 github 
+
 it is a web based services for git repo for hosting your git file globally over the internet
 main features:-
 -can be accesed from the internet
