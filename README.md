@@ -93,15 +93,23 @@ Atomic Design makes creating and maintaining web apps easier, faster, and more o
 git
 
 git is a distributed version control system present on local machine to monitor and keep logs or track changes,it is a command line tool
+
 main features:-
+
 -version control
+
 -collboration between users
+
 -fast and scalable
+
 -present locally at a system
 
 github 
 
 it is a web based services for git repo for hosting your git file globally over the internet
+
 main features:-
+
 -can be accesed from the internet
+
 -has additional features or integration with other services like aws/azure etc
