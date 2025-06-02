@@ -55,30 +55,30 @@ The word atomic comes from atoms, which are the smallest building blocks in chem
 
 Here’s how Atomic Design works:
 
-Atoms
+#Atoms
 These are the smallest parts of your design, like buttons, labels, or icons. They are simple and reusable everywhere in your app.
 
-Molecules
+#Molecules
 Molecules are groups of atoms put together to make a slightly more complex component. For example, a search form made of a text input (atom) and a button (atom).
 
-Organisms
+#Organisms
 Organisms are bigger groups made from molecules and atoms. For example, a header with a logo, navigation menu, and search form.
 
-Templates
+#Templates
 Templates give a basic layout or skeleton for a page. They arrange organisms and molecules in a structure but don’t have final content yet.
 
-Pages
+#Pages
 Pages are the final, complete designs. They fill the templates with real content and show how the finished app or website looks.
 
 Benefits of Atomic Design:
 
-Builds from small to big: Start with simple parts and combine them step-by-step to build the full design.
+#Builds from small to big: Start with simple parts and combine them step-by-step to build the full design.
 
-Reusable components: Atoms and molecules can be reused in many places, saving time and effort.
+#Reusable components: Atoms and molecules can be reused in many places, saving time and effort.
 
-Consistent design: Since the same components are used throughout, the app looks and feels consistent.
+#Consistent design: Since the same components are used throughout, the app looks and feels consistent.
 
-Easy to scale: Adding new features or pages is easier because you can reuse existing components.
+#Easy to scale: Adding new features or pages is easier because you can reuse existing components.
 
 Atomic Design makes creating and maintaining web apps easier, faster, and more organized.
 
