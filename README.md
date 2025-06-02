@@ -1,4 +1,6 @@
-----------------------12 factor app------------------------------
+# assignment-1
+
+## 12 factor app
 
 
 Twelve-Factor App is a set of 12 principles, or best practices, for building web applications, which are now commonly known as SaaS (Software as a Service). These principles help create applications that reduce development time and cost, especially when new people join the team. It is highly portable and suitable for development on various cloud platforms, allowing continuous development and scaling.
@@ -45,9 +47,8 @@ Don’t write logs to files or manage log storage inside the app. Instead, each 
 12.Admin Processes
 These are special tasks run occasionally, not part of the normal app operation. Examples include running one-time scripts to fix data or perform maintenance. Admin tasks should run the same way as your app’s regular processes, using the same code, configuration, and environment. This ensures consistency, avoids syncing problems, and makes debugging easier.
 
---------------------atomic design-------------------
 
-Atomic Design
+## Atomic Design
 
 Atomic Design is a way to build web apps or websites by breaking the design into small, reusable parts called atoms. Instead of designing the whole app at once, we start with small pieces and combine them step-by-step to create the full app. This helps keep the design consistent and easier to manage.
 
@@ -55,27 +56,27 @@ The word atomic comes from atoms, which are the smallest building blocks in chem
 
 Here’s how Atomic Design works:
 
--Atoms
+### Atoms
 
 These are the smallest parts of your design, like buttons, labels, or icons. They are simple and reusable everywhere in your app.
 
--Molecules
+### Molecules
 
 Molecules are groups of atoms put together to make a slightly more complex component. For example, a search form made of a text input (atom) and a button (atom).
 
--Organisms
+### Organisms
 
 Organisms are bigger groups made from molecules and atoms. For example, a header with a logo, navigation menu, and search form.
 
--Templates
+### Templates
 
 Templates give a basic layout or skeleton for a page. They arrange organisms and molecules in a structure but don’t have final content yet.
 
--Pages
+### Pages
 
 Pages are the final, complete designs. They fill the templates with real content and show how the finished app or website looks.
 
-Benefits of Atomic Design:
+### Benefits of Atomic Design:
 
 -Builds from small to big: Start with simple parts and combine them step-by-step to build the full design.
 
@@ -87,10 +88,11 @@ Benefits of Atomic Design:
 
 Atomic Design makes creating and maintaining web apps easier, faster, and more organized.
 
------Git vs Github---------
+
+## Git vs Github
 
 
-git
+### git
 
 git is a distributed version control system present on local machine to monitor and keep logs or track changes,it is a command line tool
 
@@ -104,7 +106,7 @@ main features:-
 
 -present locally at a system
 
-github 
+### github 
 
 it is a web based services for git repo for hosting your git file globally over the internet
 
@@ -116,7 +118,7 @@ main features:-
 
 
 
--------------git config----------
+## git config
 
 
 git config include the command to set up git setting 
@@ -133,6 +135,6 @@ git setting stored at 3 level local,global,system
 
 
 
----------gitignore---------
+## gitignore
 
 .gitignore is a special file used in Git to tell it which files or folders to ignore — meaning, not to track or upload to GitHub.(like log files,api keys ,passwords etc).
