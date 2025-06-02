@@ -113,3 +113,26 @@ main features:-
 -can be accesed from the internet
 
 -has additional features or integration with other services like aws/azure etc
+
+
+
+-------------git config----------
+
+
+git config include the command to set up git setting 
+
+-name and email
+
+-prefered editor
+
+-command shortcut
+
+git setting stored at 3 level local,global,system
+
+
+
+
+
+---------gitignore---------
+
+.gitignore is a special file used in Git to tell it which files or folders to ignore — meaning, not to track or upload to GitHub.(like log files,api keys ,passwords etc).
