@@ -23,4 +23,4 @@ const isEven=(num)=>{
         return false;
     }
 }
-console.log(oddEven(7))
+console.log(isEven(7))

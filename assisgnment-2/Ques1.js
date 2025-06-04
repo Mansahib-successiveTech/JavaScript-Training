@@ -8,7 +8,7 @@ function getRandomNumber(){
     return Math.floor(Math.random()*10+1);
 }
 
-let a=getRandomNumber();
+const a=getRandomNumber();
 let b=getRandomNumber();
 
 // if statements to solve if 2 simultaneous answers are same 

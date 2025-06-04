@@ -14,9 +14,9 @@ function getFactorial(num){
 }
 
 // calling factorial function in aother function
-function tellNumber(getFactorial,num){
+function displayNumber(getFactorial,num){
     console.log("The factorial is " + getFactorial(num));
 
 }
 //calling final function 
-tellNumber(getFactorial,5);
+displayNumber(getFactorial,5);
