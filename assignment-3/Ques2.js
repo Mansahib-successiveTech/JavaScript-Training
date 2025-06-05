@@ -81,6 +81,7 @@ const pattern3=()=>{
 }
 pattern1();
 pattern2();
+console.log("");
 pattern3();
 
 

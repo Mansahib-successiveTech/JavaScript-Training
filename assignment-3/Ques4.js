@@ -8,13 +8,15 @@ const oddEven=(n)=>{
     let odd = "";
     
 //iterating over +2 skiping the logical operator    
-    for(let i = 0;i < n;i=i+2)
+    for(let i = 0;i < n;i++)
     {
+        if(i%2==0)
             even += i + " ";
     }
      
-    for(let i = 1;i < n;i=i+2)
+    for(let i = 0;i < n;i++)
     {
+        if(i%2!=0)
             odd += i + " "
     }
     let result=even+odd;

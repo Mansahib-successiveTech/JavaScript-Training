@@ -5,39 +5,23 @@
 
 
 //function to calculate sum
-const sumOfNumbers=(num1,num2)=>
-    num1 + num2;
+const sumOfNumbers=(num1,num2)=>num1 + num2;
 
 
 //function to calculate difference
-const differenceOfNumbers=(num1,num2)=>{
-    if(num1 > num2)
-    {
-        return num1 - num2
-    }
-    else
-    {
-        return num2 - num1;
-    }
-}
+const differenceOfNumbers=(num1,num2)=> num1 - num2
+
+
 
 
 //function to calculate product
-const productOfNumbers=(num1,num2)=>
-    num1 * num2;
+const productOfNumbers=(num1,num2)=>num1 * num2;
 
 
 //function to calculate quotient
-const divisionOfNumbers=(num1,num2)=>{
-    if(num1 > num2)
-        {
-            return num1 / num2
-        }
-        else
-        {
-            return num2 / num1;
-        }          
-}
+const divisionOfNumbers=(num1,num2)=>num1 / num2
+        
+      
 
 /*main function for calculator where 2 number and a operator is sent as paprameter and accordingly
 to the operator the result is diplayed out*/
