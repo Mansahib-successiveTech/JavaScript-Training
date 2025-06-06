@@ -15,8 +15,7 @@ using loops
  console.log(result);
 */
 
-
 //using string functions
 let string = "Hello John";
-let result = string.split("").reverse().join("");  //splitting in array then using reversing and join  
+let result = string.split("").reverse().join(""); //splitting in array then using reversing and join
 console.log("reverser string is " + result);
