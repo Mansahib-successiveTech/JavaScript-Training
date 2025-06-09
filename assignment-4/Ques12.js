@@ -6,7 +6,7 @@ const intersectionArray = (ar1, ar2) => {
   let result = [];
   for (let i = 0; i < ar1.length; i++) {
     for (let j = 0; j < ar2.length; j++) {
-      if (ar1[i] === ar2[j]) {
+      if (ar1[i] === ar2[j] && !result.includes(ar1[i])) {
         result.push(ar1[i]);
       }
     }

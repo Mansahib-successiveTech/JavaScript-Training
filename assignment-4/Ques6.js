@@ -2,8 +2,9 @@
 6. Write a program to find sum of an array
 */
 
-let sum = 0;
+
 const findSum = (arrayOfNumber) => {
+  let sum = 0;
   for (let i = 0; i < arrayOfNumber.length; i++) {
     sum += arrayOfNumber[i];
   }

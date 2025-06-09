@@ -7,7 +7,7 @@ const removeDuplicate = (ar) => {
   for (let i = 0; i < ar.length; i++) {
     let count = 1;
     for (let j = i + 1; j < ar.length; j++) {
-      if (ar[i] == ar[j] && i != j) {
+      if (ar[i] == ar[j]) {
         count++;
       }
     }

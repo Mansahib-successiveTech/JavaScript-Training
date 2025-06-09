@@ -2,18 +2,22 @@
 5.Write a program to convert given string in camel case ("hello john doe" => helloJohnDoe)
 */
 
-const showCamelCase = () => {
+
+
+const showCamelCase = (string) => {
+   
+  let str = string.toLowerCase().trim();
+  const words = str.split(" ");
   let result = "";
-  let trimString = string.trim();
-  console.log(`before:${string}`);
-  for (let i = 0; i <= trimString.length - 1; i++) {
-    if (trimString[i] == " ") {
-      result += trimString[i + 1].toUpperCase();
-    } else if (trimString[i] != " " && trimString[i - 1] != " ") {
-      result += trimString[i];
+  for (let i = 0; i < words.length; i++) {
+    if (i == 0) {
+      result += words[i];
+    } else {
+      let temp=words[i]; 
+      temp = temp.charAt(0).toUpperCase()+words[i].slice(1);
+      result += temp;
     }
   }
-  console.log(`after camel case ${result}`);
+  console.log(result);
 };
-let string = " hello john doe ";
-showCamelCase(string);
+showCamelCase("    hello         john doe");

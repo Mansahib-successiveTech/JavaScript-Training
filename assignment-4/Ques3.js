@@ -1,7 +1,7 @@
 /*
 3.Write a program to give count of variables in a string ("abcabcdabbcc" => "a3b4c4d1")
 */
-function CountFrequency(str) {
+function countFrequency(str) {
   let map = new Map(); // Map declare
   for (let i = 0; i < str.length; i++) {
     if (map.has(str[i])) {
@@ -17,5 +17,5 @@ function CountFrequency(str) {
   return result;
 }
 
-let str = "abcabcdabbcc";
-console.log(CountFrequency(str));
+
+console.log(countFrequency("abcabcdabbcc"));

@@ -20,5 +20,5 @@ const lastIndex = (arr) => {
   return map;
 };
 
-const lastIndexs = lastIndex([1, 3, 5, 2, 1, 2]);
+const lastIndexs = lastIndex([1, 3, 5, 2, 1, 2,2]);
 console.log(lastIndexs);

@@ -3,12 +3,13 @@
 ("Hello Yellow" => "Helo Yw")
 */
 
-const checkDuplicate = (str) => {
+const checkDuplicate = (string) => {
+  let str=string.toLowerCase();
   let noDuplicate = new Set(str);
   let result = "";
   for (let i of noDuplicate) result += i;
   console.log(`After removing duplicates the string is: ${result}`);
 };
 
-let str = "Hello Yellow";
+let str = "Hello Yellow wello";
 checkDuplicate(str);
