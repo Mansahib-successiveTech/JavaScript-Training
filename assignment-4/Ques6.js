@@ -11,3 +11,11 @@ const findSum = (arrayOfNumber) => {
   console.log(`the sum of elements are ${sum}`);
 };
 findSum([2, 2, 3, 3, 4, 4]);
+
+
+// using reduce
+const numbers = [1, 2, 3, 4, 5];
+
+const sum = numbers.reduce((acc, val) => acc + val, 0);
+
+console.log(sum);

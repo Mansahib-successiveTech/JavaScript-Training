@@ -6,7 +6,7 @@
 
 const showCamelCase = (string) => {
    
-  let str = string.toLowerCase().trim();
+  const str = string.toLowerCase().trim();
   const words = str.split(" ");
   let result = "";
   for (let i = 0; i < words.length; i++) {

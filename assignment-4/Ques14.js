@@ -14,3 +14,20 @@ for (let i = arr2.length - 1; i >= 0; i--) {
   result2.push(arr2[i]);
 }
 console.log("reverse using loops " + result2);
+
+//inplace reverse
+function reverseArrayInPlace(array) {
+  let left = 0;
+  let right = array.length - 1;
+
+  while (left < right) {
+    // Swap elements
+    let temp = array[left];
+    array[left] = array[right];
+    array[right] = temp;
+    left++;
+    right--;
+  }
+  return array;
+}
+console.log(reverseArrayInPlace(arr));
