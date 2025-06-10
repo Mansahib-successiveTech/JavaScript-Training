@@ -58,6 +58,6 @@ let obj1={
 
 let obj2=deepCopyObject(obj1);
 obj2.arr[0]=3;
-obj1.age=14;
+obj1.age=15;
 console.log(obj1);
 console.log(obj2);
