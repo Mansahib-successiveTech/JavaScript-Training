@@ -5,14 +5,14 @@
 
 */
 
-class shapes {
+class Shape {
   constructor(width, height) {
     this.height = height;
     this.width = width;
   }
   getArea() {}
 }
-class Rectangle extends shapes {
+class Rectangle extends Shape {
   super(width, height) {
     this.width = width;
     this.height = height;
@@ -22,7 +22,7 @@ class Rectangle extends shapes {
     return this.width * this.height;
   }
 }
-class triangle extends shapes {
+class Triangle extends Shape {
   super(width, height) {
     this.width = width;
     this.height = height;
@@ -32,7 +32,7 @@ class triangle extends shapes {
     return (1 / 2) * this.width * this.height;
   }
 }
-let tri = new triangle(10, 10);
+let tri = new Triangle(10, 10);
 let rect = new Rectangle(20, 10);
 console.log(tri.getArea());
 console.log(rect.getArea());

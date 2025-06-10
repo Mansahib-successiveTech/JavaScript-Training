@@ -5,15 +5,15 @@ Additionally, the class should have a method called `averageAge` that takes in a
 `Person` objects and returns the average age of all the people in the array.
 */
 
-class person {
-  constructor(firtsname, lastname, age) {
-    this.firtsname = firtsname;
-    this.lastname = lastname;
+class Person {
+  constructor(firstName, lastName, age) {
+    this.firstName = firstName;
+    this.lastName = lastName;
     this.age = age;
   }
 
   showFullName() {
-    return this.firtsname + this.lastname;
+    return this.firstName + " " + this.lastName;
   }
   averageAge(array) {
     const total = array.reduce((accumaltor, obj) => accumaltor + obj.age, 0);
@@ -21,9 +21,9 @@ class person {
   }
 }
 
-const obj1 = new person("mansahib", "singh", 23);
-const obj2 = new person("sahib", "is", 20);
-const obj3 = new person("isha", "nailwal", 22);
+const obj1 = new Person("mansahib", "singh", 23);
+const obj2 = new Person("sahib", "is", 20);
+const obj3 = new Person("isha", "nailwal", 22);
 
 const fullname = obj1.showFullName();
 console.log(fullname);

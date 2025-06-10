@@ -5,22 +5,22 @@
 
 class BankAccount {
   constructor(balance, owner) {
-    this.mybalance = balance;
-    this.ownerName = owner;
+    this.balance = balance;
+    this.owner = owner;
   }
 
   deposit(num) {
-    this.mybalance += num;
+    this.balance += num;
   }
   withdraw(num) {
-    if (num > this.mybalance) {
+    if (num > this.balance) {
       console.log("low balance");
     } else {
-      this.mybalance -= num;
+      this.balance -= num;
     }
   }
   displayBalance() {
-    console.log(`the balance of ${this.ownerName} is  ${this.mybalance}`);
+    console.log(`the balance of ${this.owner} is  ${this.balance}`);
   }
 }
 
