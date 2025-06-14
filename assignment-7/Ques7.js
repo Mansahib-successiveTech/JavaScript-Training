@@ -16,26 +16,14 @@ const promise1=()=>{
  })
 return promise;
 }
-const promise2=()=>{
-    let promise=new Promise((resolve,reject)=>{
-        setTimeout(()=>{
-            if(0){
-                resolve("resolved 2")
-                }
-                else{
-                    reject("rejected 2")
-                }
-        },7000)
-     })
-    return promise;
-}
+
 
 const mainFunc=async()=>{
     console.log("starting");
     try{
         let result1=promise1();
         console.log(1);
-        let result2=promise2();
+        let result2=promise1();
         console.log(2);
         let final=await Promise.allSettled([result1,result2])
         console.log(3);

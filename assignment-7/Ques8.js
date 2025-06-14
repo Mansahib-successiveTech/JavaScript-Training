@@ -15,12 +15,12 @@ const func2=()=>{
 }
 
 const mainFunc=async()=>{
-    let result1=await func1();
-    let result2=await func2();
-    console.log(result1.id);
-    console.log(result2.id);
+   
+    const [result1,result2]=await Promise.allSettled([func1(),func2()])
+    console.log(result1.value.id);
+    console.log(result2.value.id);
 
-    let final=result1.id+result2.id;
+    let final=result1.value.id+result2.value.id;
     console.log(final);
 }
 mainFunc()
