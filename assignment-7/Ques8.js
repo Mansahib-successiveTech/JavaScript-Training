@@ -2,21 +2,16 @@
 8. Create a function that fetches data from multiple APIs in parallel and 
 then performs some operation on the combined data, using async/await.
 */
-const func1=()=>{
-    let result=fetch("https://jsonplaceholder.typicode.com/todos/1")
-    .then((response)=>response.json());
-    return result;
-}
-
-const func2=()=>{
-    let result=fetch("https://jsonplaceholder.typicode.com/todos/2")
+const url="https://jsonplaceholder.typicode.com/todos/1"
+const func1=(url)=>{
+    let result=fetch(url)
     .then((response)=>response.json());
     return result;
 }
 
 const mainFunc=async()=>{
    
-    const [result1,result2]=await Promise.allSettled([func1(),func2()])
+    const [result1,result2]=await Promise.allSettled([func1(url),func1(url)])
     console.log(result1.value.id);
     console.log(result2.value.id);
 
